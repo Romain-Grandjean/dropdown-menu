@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Futura_Medium";
+    src: url(../fonts/Futura_Medium.otf);
+  }
+
+@font-face {
+    font-family: "Futura_Medium_Italic";
+    src: url(../fonts/Futura_Medium_Italic.otf); */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Futura_Medium";
+    font-size: 11px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.nav-bar {
+    border-bottom: .002rem white solid;
+    height: 8rem;
+}
+
+.menu-buttons {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 17.2rem;
+    height: 8rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: .1rem white solid;
+
+}
+
+.logo img {
+    width: 4rem;
+    height: auto;
+}
+
+.logo p {
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 1rem;
+}
+
+.about, .services, .picks {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+ul {
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    width: 17.2rem;
+    height: 6rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .1rem #92FFF9 solid;
+}
+
+.main img {
+    margin-left: 2rem;
+    transform: rotate(0deg);
+}
+
+.main a {
+    text-decoration: none;
+    color: #92FFF9;
+    font-size: 1.6rem;
+    font-family: "Futura_Medium";
+}
+
+ul .main  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 17.2rem;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: .1rem white solid;
+}
+
+ul  {
+    display: none;
+}
+
+li {
+    display: flex;
+    width: 17.2rem;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.list-item a {
+    color: black;
+    font-family: "Futura_Medium_Italic";
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+li:hover {
+    background-color: rgba(146, 255, 250, 0.33) ;
+    border-bottom: .3rem #92FFF9 solid;
+}
+
+ ul:hover {
+    display: list-item;
+    background-color: white;
+    transition: all .3s ease-in-out;
+}
+
+
+
+
+
+
