@@ -1,2 +1,1 @@
-### Dropdow menu - DCi exercise
-[Link to project](https://in-roma.github.io/dropdown-menu/)
+DCi exercise - [DropDown menu](https://in-roma.github.io/dropdown-menu/)
